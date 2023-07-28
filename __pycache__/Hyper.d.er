@@ -1,0 +1,14 @@
+##[pylyzer] failed /home/ssheersh/Documents/Samyak_Documents/Clubs/KDAG/Hyper.py 1690518252 883
+.np = pyimport "numpy"
+
+.pd = pyimport "pandas"
+
+.sigmoid: |Type_11 <: Structural({.__neg__ = (self: Never) -> R}), R: Type|(z: Type_11) -> Float
+.LogisticRegressionScratch: ClassType
+.LogisticRegressionScratch.theta: Never
+.LogisticRegressionScratch.learning_rate: Never
+.LogisticRegressionScratch.num_iterations: Never
+.LogisticRegressionScratch.__call__: (learning_rate: Obj, num_iterations: Obj, theta: Obj) -> .LogisticRegressionScratch
+.LogisticRegressionScratch.fit: |Type_21 <: Structural({.learning_rate = Type_52}), Type_52 <: Structural({.__mul__ = (self: Never, R) -> R}), R <: Float, R: Type|(self: Type_21, X: Structural({.shape = Indexable(Obj, Never)}), y: R) -> NoneType
+.LogisticRegressionScratch.predict: |Type_26 <: Structural({.theta = Type_64}), Type_64: Type|(self: Type_26, X: Structural({.shape = Indexable(Obj, Never)})) -> Never
+
